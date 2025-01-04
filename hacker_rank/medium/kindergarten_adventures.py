@@ -55,6 +55,7 @@ def solve_v2(t: List[int]) -> int:
     return A.index(max(A)) + 1
 
 def solve(t: List[int]) -> int:
+    # TODO: this is unfinished
     return solve_v2(t=t)
 
 if __name__ == '__main__':
