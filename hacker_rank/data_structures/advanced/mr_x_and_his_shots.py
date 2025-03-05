@@ -50,6 +50,6 @@ if __name__ == '__main__':
         ]
     )
     # print(input_args)
-    input_args = load_data('/Users/kunalkoppula/opt/repos/coding_questions/hacker_rank/medium/datasets/mr_x_and_his_shots_test_5.txt')
+    input_args = load_data('/hacker_rank/datasets/mr_x_and_his_shots_test_5.txt')
     output = solve(*input_args)
     print(output)
